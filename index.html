@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+  <html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Configurator</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <main class="content">
+          <ul class="links">
+          </ul>
+      </main>
+    </div>
+
+    <template id="link-template" class="link-template">
+      <li class="link">
+      <p class="link__text"></p>
+
+      <select class="link__options">
+        <option value="" selected="selected" hidden="hidden">Pull direction</option>
+        <option class="link__option" placeholder="Выбрать">UP</option>
+        <option class="link__option">DOWN</option>
+      </select>
+
+      <select>
+      </select>
+
+      <select>
+      </select>
+    </li>
+    </template>
+
+
+    <script src="index.js"></script>
+
+  </body>
+</html>
